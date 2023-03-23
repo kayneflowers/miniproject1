@@ -172,7 +172,6 @@ h4{
 
 small{
     color: #555;
-<<<<<<< HEAD
 }
 
 .testimonial{
@@ -217,17 +216,17 @@ small{
     margin: 100px auto;
 }
 
-.col-5{
+.col-6{
     width: 160px;
 }
 
-.col-5 img{
+.col-6 img{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
 }
 
-.col-5 img:hover{
+.col-6 img:hover{
     filter: grayscale(0);
 }
 
@@ -238,6 +237,8 @@ small{
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px 20px;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 
 .footer p{
@@ -284,6 +285,7 @@ ul{
 
 .app-logo{
     margin-top: 20px;
+    text-align: center;
 }
 
 .app-logo img{
