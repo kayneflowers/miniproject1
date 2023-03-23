@@ -233,8 +233,8 @@ small{
 /*-------- footer -----------*/
 
 .footer{
-    background: #000;
-    color: #8a8a8a;
+    background: radial-gradient(rgb(255, 242, 232),#ecccb4);
+    color: #340e0e;
     font-size: 14px;
     padding: 60px 20px;
     margin-top: auto;
@@ -242,11 +242,11 @@ small{
 }
 
 .footer p{
-    color: #8a8a8a;
+    color: #340e0e;
 }
 
 .footer h3{
-    color: #fff;
+    color: #340e0e;
     margin-bottom: 20px;
 }
 
@@ -256,17 +256,17 @@ small{
 }
 
 .footer-col-1{
-    flex-basis: 30%;
+    flex: 1;
+    text-align: center;
 }
 
 .footer-col-1 img{
-    width: 180px;
+    width: 120px;
     margin-bottom: 20px;
 }
 
 .footer-col-2{
-    flex: 1;
-    text-align: center;
+    flex-basis: 30%;
 }
 
 .footer-col-2 img{
