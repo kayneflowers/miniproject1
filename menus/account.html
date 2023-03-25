@@ -39,39 +39,63 @@
         </div>
     </div>
 
-
     <!----- Account Page ----->
 
-    <div class="account-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="../images/store.png" width="100%">
+    <section class="slol">
+
+        <div class="container-fluid row row-cols-1 row-cols-sm-4 mb-3 g-1">
+
+            <form action="" class="container col-sm-4 pt-3 pb-3 mt-3 shadow border rounded-3">
+
+                <div class="card-body align-items-center">
+                    <h3 class="text-center text-body-secondary rounded-2">
+                        Login
+                    </h3>
+                    <!-- Email Address field -->
+                    <div class="mb-3 text-start">
+                        <label for="emailAdd" class="form-label">
+                            Email address
+                        </label>
+                        <input type="email" class="form-control" id="emailAdd" placeholder="Enter your Email Address" required>
+                    </div>
+                    <!-- Password field -->
+                    <div class="mb-3 text-start">
+                        <label for="Password" class="form-label">
+                            Password
+                        </label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <!-- Remember me checkbox -->
+                    <div class="input-group gap-2 mb-1 align-items-center">
+                        
+                        <input class="form-check-input rounded-1 mt-0" id="checkbox" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        
+                        <label for="checkbox">Remember me</label>
+                        
+                    </div>
+                    <div>
+                        <a href="#" rel="noopener" class="btn page-link mb-2">
+                            Forgot password?
+                        </a>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <button type="submit" class="btn btn-secondary">
+                        Login
+                    </button>
+
+                    <a href="register.html" class="btn btn-outline-secondary">
+                        Register
+                    </a>
+
                 </div>
-                <div class="col-2">
-                   <div class="form-container">
-                        <div class="form-btn">
-                            <span onclick="login()">Login</span>
-                            <span onclick="register()">Register</span>
-                            <hr id="Indicator">
-                        </div>
-                        <form id="LoginForm">
-                            <input type="text" placeholder="Username">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Login</button>
-                            <a href="">Forgot Passsword</a>
-                        </form>
-                        <form id="RegistrationForm"> 
-                            <input type="text" placeholder="Username">
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password">
-                            <button type="submit" class="btn">Register</button>
-                        </form>
-                   </div>
-                </div>
-            </div>
+
+            </form>
+
         </div>
-    </div>
+
+    </section>
+
 
     <!----- footer ----->
 

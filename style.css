@@ -149,9 +149,10 @@ header{
    transform: translateX(-50%);
 }
 
-h3{
+h4{
     color: #555;
     font-weight: normal;
+    font-size: small;
 }
 
 .col-4 p{
@@ -601,6 +602,10 @@ form a{
 
 .accordion-header p{
     font-weight: bold;
+}
+
+.float-start{
+    text-align: center;
 }
 /* ------- media query for menu -------- */
 
