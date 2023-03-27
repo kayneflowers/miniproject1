@@ -139,7 +139,7 @@ header{
 
 .title::after{
    content: '';
-   background: #ff523b;
+   background:  rgb(138, 72, 25);;
    width: 80px;
    height: 5px;
    border-radius: 5px;
@@ -206,7 +206,7 @@ small{
 
 .fa.fa-quote-left{
     font-size: 34px;
-    color: #ff523b;
+    color:  rgb(138, 72, 25);;
 }
 .col-3 p{
     font-size: 12px;
@@ -354,7 +354,7 @@ ul{
 }
 
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid #340e0e;
     padding: 5px;
     display: inline-block;
 }
@@ -369,7 +369,7 @@ select:focus{
 
 .page-btn span{
     display:inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid#340e0e;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -379,7 +379,7 @@ select:focus{
 }
 
 .page-btn span:hover{
-    background: #ff523b;
+    background:  rgb(138, 72, 25);;
     color: #fff;
 }
 
@@ -415,7 +415,7 @@ select:focus{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #340e0e;
 }
 
 input:focus{
@@ -423,7 +423,7 @@ input:focus{
 }
 
 .single-product .fa{
-    color: #ff523b;
+    color:#340e0e;
     margin-left: 10px;
 }
 
@@ -457,7 +457,7 @@ th{
     text-align: left;
     padding: 5px;
     color:#fff;
-    background: #ff523b;
+    background: rgb(138, 72, 25);
     font-weight: normal;
 }
 
@@ -472,7 +472,7 @@ td input{
 }
 
 td a{
-    color: #ff523b;
+    color: #340e0e;
     font-size: 12px;
 }
 
@@ -488,7 +488,7 @@ td img{
 }
 
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #340e0e;
     width: 100%;
     max-width: 330px;
 }
@@ -575,7 +575,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #ff523b;
+    background: #340e0e;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
